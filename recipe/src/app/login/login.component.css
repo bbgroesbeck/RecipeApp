@@ -1,0 +1,48 @@
+#header{
+  text-align: center;
+  font-size: 40px;
+  color: #505050;
+  font-family: 'Roboto';
+  border-radius: 25px;
+  }
+
+#mccheese {
+    width:auto;
+    margin: 1.5em auto 4em auto;
+    display:block;
+}
+
+
+#google {
+    border: 1px solid #95989A;
+    background: #fff  url('../../assets/images/google.svg') no-repeat 25px;
+    background-size: 25px;
+}
+
+#email {
+    background: #ECECEC  url('../../assets/images/email.svg') no-repeat 25px;
+    background-size: 25px;
+}
+
+@media (max-width: 600px) {
+    #page {
+        padding:1em;
+    }
+    #toolbar {
+        width:90%;
+        margin-left: -45%;
+    }
+
+    #google {
+        background: #fff;
+    }
+
+    #email {
+        background: #ECECEC;
+    }
+}
+
+.form-container {
+  border-radius: 4px;
+  background-color: whitesmoke;
+}

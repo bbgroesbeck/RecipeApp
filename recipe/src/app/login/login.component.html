@@ -1,0 +1,14 @@
+
+
+<div class="form-container">
+
+  <h3 id="header">Welcome to Git Grub!</h3>
+  <img src="../../assets/images/mayor_mccheese.png" id="mccheese">
+
+    <span class="error" *ngIf="error">{{ error }}</span>
+
+  <button (click)="loginGoogle()" id="google">Login With Google</button>
+  <button routerLink="/login-email" id="email">Email</button>
+
+  <a routerLink="/signup" routerLinkActive="active" class="alc">No account? <strong>Create one here</strong></a>
+</div>
