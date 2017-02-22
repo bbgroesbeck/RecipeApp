@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background:#E2E4E6;
+    /*background:#E2E4E6;*/
+    background-image: url("assets/images/markus-spiske-101815.jpg");
     padding-top:4em;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form-container {

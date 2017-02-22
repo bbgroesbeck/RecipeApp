@@ -10,7 +10,7 @@ import { SignupComponent } from './signup/signup.component';
 import { MembersComponent } from './members/members.component';
 import { AuthGuard } from './auth.service';
 import { routes } from './app.routes';
-
+import { AlertModule } from 'ng2-bootstrap';
 
 // Must export the config
 export const firebaseConfig = {
@@ -34,9 +34,11 @@ export const firebaseConfig = {
     FormsModule,
     HttpModule,
     AngularFireModule.initializeApp(firebaseConfig),
-    routes
+    routes,
+    AlertModule.forRoot()
   ],
   providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
